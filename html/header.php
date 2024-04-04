@@ -18,22 +18,22 @@
           <li class="dropdown">
             <a href="#">Alumnos</a>
             <ul class="dropdown-menu">
-              <li><a href="./html/formAlumno.html">Registrar Alumno</a></li>
-              <li><a href="#">Listar Alumnos</a></li>
+              <li><a href="./formAlumno.php">Registrar Alumno</a></li>
+              <li><a href="./listarAlumnos.php">Listar Alumnos</a></li>
               <li><a href="#">Asignar responsable</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#">Responsables</a>
             <ul class="dropdown-menu">
-              <li><a href="./html/formResponsable.html">Registrar Responsable</a></li>
+              <li><a href="./formResponsable.php">Registrar Responsable</a></li>
               <li><a href="#">Listar Responsables</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#">Cursos</a>
             <ul class="dropdown-menu">
-              <li><a href="./html/formCurso.html">Registrar Curso</a></li>
+              <li><a href="./formCurso.php">Registrar Curso</a></li>
               <li><a href="#">Listar Cursos</a></li>
               <li><a href="#">Estado de Cursos</a></li>
             </ul>
@@ -42,12 +42,6 @@
       </div>
     </nav>
   </header>
-
-  <main>
-    <h1>Bienvenido al Sistema de Gestión de Cursos</h1>
-    <p>Desde aquí podrás gestionar alumnos, responsables y cursos.</p>
-  </main>
-
   <script src="script.js"></script>
 </body>
 </html>

@@ -8,41 +8,7 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-          <div class="logo">
-            <a href="#">Sistema de Gestión de Cursos</a>
-          </div>
-          <div class="menu-container">
-            <ul class="menu">
-              <li><a href="../index.html">Inicio</a></li>
-              <li class="dropdown">
-                <a href="#">Alumnos</a>
-                <ul class="dropdown-menu">
-                  <li><a href="../html/formAlumno.html">Registrar Alumno</a></li>
-                  <li><a href="#">Listar Alumnos</a></li>
-                  <li><a href="#">Asignar responsable</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#">Responsables</a>
-                <ul class="dropdown-menu">
-                  <li><a href="../html/formResponsable.html">Registrar Responsable</a></li>
-                  <li><a href="#">Listar Responsables</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#">Cursos</a>
-                <ul class="dropdown-menu">
-                  <li><a href="../html/formCurso.html">Registrar Curso</a></li>
-                  <li><a href="#">Listar Cursos</a></li>
-                  <li><a href="#">Estado de Cursos</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+  <?php include './html/header.php'; ?>
       <main>
         <h1>Registro de Alumnos</h1>
         <form method="post" action="../back/Proc_alumnos.php">
