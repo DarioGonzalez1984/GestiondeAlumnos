@@ -44,7 +44,14 @@
       </header>
       <main>
         <h1>Registro de Responsables</h1>
-        <form>
+        <form method="post" action="../back/Proc_responsables.php">
+            <div class="form-group">
+                <input type="hidden" id="id" name="id" required>
+              </div>
+            <div class="form-group">
+                <label for="cedula">Cédula</label>
+                <input type="text" id="cedula" name="cedula" required>
+              </div>
           <div class="form-group">
             <label for="nombre">Nombre</label>
             <input type="text" id="nombre" name="nombre" required>
@@ -59,16 +66,7 @@
           </div>
           <div class="form-group">
             <label for="correo">Correo Electrónico</label>
-            <input type="email" id="correo" name="correo" required>
-          </div>
-          <div class="form-group">
-            <label for="relacion">Relación con el Alumno</label>
-            <select id="relacion" name="relacion" required>
-              <option value="">Selecciona una opción</option>
-              <option value="padre">Padre</option>
-              <option value="madre">Madre</option>
-              <option value="tutor">Tutor</option>
-            </select>
+            <input type="email" id="correo" name="correo" >
           </div>
           <button type="submit">Registrar Responsable</button>
         </form>
