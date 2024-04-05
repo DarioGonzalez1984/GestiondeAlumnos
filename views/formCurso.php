@@ -9,7 +9,7 @@
 <body>
     <?php 
      $base_url = '/gestiondealumnos';
-    include './header.php'; ?>
+    include '../header.php'; ?>
       <main>
         <h1>Registro de Cursos</h1>
         <form method="post" action="../controllers/Proc_cursos.php">
