@@ -10,31 +10,31 @@
   <header>
     <nav>
       <div class="logo">
-        <a href="#">Sistema de Gestión de Cursos</a>
+        <a href="/gestiondealumnos">Sistema de Gestión de Cursos</a>
       </div>
       <div class="menu-container">
         <ul class="menu">
-          <li><a href="#">Inicio</a></li>
+          <li><a href="/gestiondealumnos">Inicio</a></li>
           <li class="dropdown">
             <a href="#">Alumnos</a>
             <ul class="dropdown-menu">
-              <li><a href="./formAlumno.php">Registrar Alumno</a></li>
-              <li><a href="./listarAlumnos.php">Listar Alumnos</a></li>
+              <li><a href="<?php echo $base_url; ?>/alumnos/registro">Registrar Alumno</a></li>
+              <li><a href="<?php echo $base_url; ?>/alumnos/listar">Listar Alumnos</a></li>
               <li><a href="#">Asignar responsable</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#">Responsables</a>
             <ul class="dropdown-menu">
-              <li><a href="./formResponsable.php">Registrar Responsable</a></li>
-              <li><a href="#">Listar Responsables</a></li>
+              <li><a href="<?php echo $base_url; ?>/responsables/registro">Registrar Responsable</a></li>
+              <li><a href="<?php echo $base_url; ?>/responsables/listar">Listar Responsables</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#">Cursos</a>
             <ul class="dropdown-menu">
-              <li><a href="./formCurso.php">Registrar Curso</a></li>
-              <li><a href="#">Listar Cursos</a></li>
+              <li><a href="<?php echo $base_url; ?>/cursos/registro">Registrar Curso</a></li>
+              <li><a href="<?php echo $base_url; ?>/cursos/listar">Listar Cursos</a></li>
               <li><a href="#">Estado de Cursos</a></li>
             </ul>
           </li>

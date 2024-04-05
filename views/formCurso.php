@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <?php include './html/header.php'; ?>
+    <?php 
+     $base_url = '/gestiondealumnos';
+    include './header.php'; ?>
       <main>
         <h1>Registro de Cursos</h1>
-        <form method="post" action="../back/Proc_cursos.php">
+        <form method="post" action="../controllers/Proc_cursos.php">
           <div class="form-group">
             <label for="nombre_curso">Nombre del Curso</label>
             <input type="text" id="nombre_curso" name="nombre_curso" required>

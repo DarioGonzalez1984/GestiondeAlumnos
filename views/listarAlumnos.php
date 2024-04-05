@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-<?php include './header.php'; ?>
+<?php $base_url = '/gestiondealumnos'; 
+include '../header.php'; ?>
       <main>
         <h1>Listado de Alumnos</h1>
-        <?php include '../back/Listar_alumnos.php'; ?>
+        <?php include '../controllers/Listar_alumnos.php'; ?>
     </main>
 </body>
 </html>

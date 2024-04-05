@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /gestiondealumnos/
+
+# Reglas de reescritura de URL
+RewriteRule ^alumnos/registro$ ./views/formAlumno.php [L]
+RewriteRule ^alumnos/listar$ ./views/listarAlumnos.php [L]
+RewriteRule ^responsables/registro$ ./views/formResponsable.php [L]
+RewriteRule ^responsables/listar$ ./views/listarResponsables.php [L]
+RewriteRule ^cursos/registro$ ./views/formCurso.php [L]
+RewriteRule ^cursos/listar$ ./views/listarCursos.php [L]

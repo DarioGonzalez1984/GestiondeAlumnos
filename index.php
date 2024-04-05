@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <?php include './html/header.php'; ?>
+  <?php 
+  $base_url = '/gestiondealumnos';
+  include './header.php'; ?>
 
   <main>
     <h1>Bienvenido al Sistema de Gestión de Cursos</h1>
@@ -17,3 +19,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
